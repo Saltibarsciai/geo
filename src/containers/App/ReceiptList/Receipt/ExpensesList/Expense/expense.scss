@@ -1,0 +1,10 @@
+.expense{
+  display: flex;
+  input{
+    border-radius: 5px;
+    margin: 10px;
+    &:first-of-type{
+      flex: 1;
+    }
+  }
+}

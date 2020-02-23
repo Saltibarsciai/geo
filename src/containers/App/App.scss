@@ -3,6 +3,12 @@
   height: 100vh;
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: 95vh 5vh;
+  grid-template-rows: 93vh 7vh;
   grid-template-columns: 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+  .App{
+    grid-template-rows: 90vh 10vh;
+  }
 }

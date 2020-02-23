@@ -1,0 +1,6 @@
+.money{
+ text-decoration: underline;
+  &::after{
+    content: "€";
+  }
+}
