@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/geo/static/css/main.f6c8e2dd.chunk.css",
+    "main.js": "/geo/static/js/main.a8a363bf.chunk.js",
+    "main.js.map": "/geo/static/js/main.a8a363bf.chunk.js.map",
+    "runtime-main.js": "/geo/static/js/runtime-main.56c59af1.js",
+    "runtime-main.js.map": "/geo/static/js/runtime-main.56c59af1.js.map",
+    "static/css/2.699c7d85.chunk.css": "/geo/static/css/2.699c7d85.chunk.css",
+    "static/js/2.e177969a.chunk.js": "/geo/static/js/2.e177969a.chunk.js",
+    "static/js/2.e177969a.chunk.js.map": "/geo/static/js/2.e177969a.chunk.js.map",
+    "index.html": "/geo/index.html",
+    "precache-manifest.d2e8fe2f3111b58c2894543cb9b5e379.js": "/geo/precache-manifest.d2e8fe2f3111b58c2894543cb9b5e379.js",
+    "service-worker.js": "/geo/service-worker.js",
+    "static/css/2.699c7d85.chunk.css.map": "/geo/static/css/2.699c7d85.chunk.css.map",
+    "static/css/main.f6c8e2dd.chunk.css.map": "/geo/static/css/main.f6c8e2dd.chunk.css.map",
+    "static/js/2.e177969a.chunk.js.LICENSE.txt": "/geo/static/js/2.e177969a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56c59af1.js",
+    "static/css/2.699c7d85.chunk.css",
+    "static/js/2.e177969a.chunk.js",
+    "static/css/main.f6c8e2dd.chunk.css",
+    "static/js/main.a8a363bf.chunk.js"
+  ]
+}
