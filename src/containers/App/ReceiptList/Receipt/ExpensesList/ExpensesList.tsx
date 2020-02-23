@@ -32,7 +32,7 @@ const ExpensesList: FunctionComponent<ExpensesListInterface> = ({expenses, setTo
         <form className="expenses-list">
             {m_expenses.map(value => (
                 <Expense changed={(expense: ExpenseInterface) => changeExpenses(expense.id, expense.note, expense.price)}
-                         key={uuid()} note={value.note} price={value.price} id={value.id}/>
+                         key={value.id} note={value.note} price={value.price} id={value.id}/>
             ))}
         </form>
     );

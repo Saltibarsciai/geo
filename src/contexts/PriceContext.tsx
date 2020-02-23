@@ -20,7 +20,6 @@ class PriceContextProvider extends Component<PropsInterface, StateInterface>{
             });
 
             this.setState({
-                receipts,
                 price: money
             });
         }else{

@@ -2,6 +2,7 @@ import React, {FunctionComponent, useState} from 'react';
 import "./expense.scss"
 import MExpenseInterface from "../../../../../../types/ExpenseInterface";
 import HandleEventInterface from "../../../../../../types/HandleEventInterface";
+import uuid from "uuid/v4";
 
 const Expense: FunctionComponent<ExpenseInterface> = ({note, price, id, changed}) => {
     const [m_note, setNote] = useState<string>(note);
@@ -17,7 +18,7 @@ const Expense: FunctionComponent<ExpenseInterface> = ({note, price, id, changed}
     return (
         <div className="expense">
             <input onChange={changeNote} placeholder={"note"} type={"text"} value={m_note}/>
-            <input onChange={changePrice} placeholder={"price"} type={"number"} value={m_price}/>
+            <input onChange={changePrice} placeholder={"price"} type={"text"} value={m_price}/>
         </div>
     );
 };
