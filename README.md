@@ -1,4 +1,4 @@
-![logo](https://i.imgur.com/6uABVA7.png)
+![](https://i.imgur.com/6uABVA7.png)
 # Receipt tracker
 
 Receipt tracker made with react and typescipt
